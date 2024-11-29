@@ -489,7 +489,18 @@ main {
 
 
 
+.resume-button {
+  color: #fff; /* Makes the font white */
+  text-decoration: none; /* Removes the underline */
+  padding: 10px 20px; /* Adds padding for better appearance */
+  border-radius: 5px; /* Optional: Rounds the corners */
+  display: inline-block; /* Optional: Makes it look like a button */
+  font-size: 16px; /* Adjusts font size */
+}
 
+.resume-button:hover {
+  color: #fff; /* Ensures the text stays white on hover */
+}
 
 /*-----------------------------------*\
   #ABOUT
